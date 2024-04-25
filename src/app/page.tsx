@@ -42,6 +42,7 @@ export default function Home() {
           <Input
             placeholder="Add a new task"
             type="text"
+            required
             {...register("example")}
           />
           <Button type="submit">Add</Button>

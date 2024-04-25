@@ -7,7 +7,7 @@ const itemVariants = cva(
     variants: {
         variant: {
             default: "text-gray-500 ",
-            checked: "line-through text-gray-400"
+            checked: "line-through text-gray-400 "
         }
     },
     defaultVariants: {
